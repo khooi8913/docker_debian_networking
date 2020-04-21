@@ -10,7 +10,6 @@ ENV DEPS tshark \
          curl \
          python3 \
          python3-scapy \
-         wireshark \
          iperf3 \
          iperf \
          net-tools \
