@@ -17,7 +17,7 @@ ENV DEPS tshark \
          iputils-ping \
          arping \
          nmap \
-         dig \
+         dnsutils \
          hping3
 
 COPY bashrc_template /root/.bashrc
