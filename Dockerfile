@@ -1,5 +1,5 @@
 FROM debian:bullseye
-LABEL maintainer="cslev <cslev@gmx.com>
+LABEL maintainer="cslev <cslev@gmx.com>"
 
 ENV DEPS tshark \
 	       tcpdump \
