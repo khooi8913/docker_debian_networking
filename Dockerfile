@@ -17,7 +17,8 @@ ENV DEPS tshark \
          arping \
          nmap \
          dnsutils \
-         hping3
+         hping3 \
+         ethtool
 
 COPY bashrc_template /root/.bashrc
 SHELL ["/bin/bash", "-c"]
