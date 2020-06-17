@@ -18,7 +18,9 @@ ENV DEPS tshark \
          nmap \
          dnsutils \
          hping3 \
-         ethtool
+         ethtool \
+	 iproute2 \
+	iptables
 
 COPY bashrc_template /root/.bashrc
 SHELL ["/bin/bash", "-c"]
@@ -28,3 +30,5 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     source /root/.bashrc
+
+WORKDIR /root
